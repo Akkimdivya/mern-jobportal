@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <header>
         <nav className='main-nav'>
-            <a href='/'><img src="https://humgrow.com/wp-content/uploads/2021/03/cropped-Building-Careers.-4-1024x251.png" className='logo'/></a>
+            <a href='/'><img src="https://res.cloudinary.com/ddzkomshk/image/upload/v1711200162/rp6vmmqbiwtq90q8bzdo.png" className='logo'/></a>
             {/* nav items */}
             <div>
             <ul className='hidden md:flex gap-6 space'>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <div className='md:hidden block'>
               <button onClick={handleMenuToggler}>
                 {
-                  isMenuOpen?<FaXmark className='w-5 h-5 text-white'/>:<FaBars className='w-5 h-5 text-white'/> 
+                  isMenuOpen?<FaXmark className='w-5 h-5 text-primary'/>:<FaBars className='w-5 h-5 text-primary'/> 
                 }
               </button>
             </div>
